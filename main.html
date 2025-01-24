@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+</head>
+<body>
+    <div id="div1">
+        <h1>Welcome To My Website</h1>
+        <h3>Click the Buttons Below to View the Respective Websites</h3>
+        <button type="button" onclick="dob()">DOB</button>
+        <button type="button" onclick="newyear()">New Year</button>
+        <button type="button" onclick="timer()">Live Timer</button>
+    </div>
+    <style>
+        body {
+            background-image: url("image 2.png");
+        }
+        #div1{
+            text-align: center;
+            padding: 20%;
+        }
+        button{
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 1rem;
+            color: white;
+            background-color: #4caf50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        h1{
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        h3{
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+    </style>
+    <script>
+        function dob(){
+            window.location.href = "file:///C:/Users/chand/OneDrive/Desktop/231501031/html/clock/age.html";
+        }
+        function newyear(){
+            window.location.href = "file:///C:/Users/chand/OneDrive/Desktop/231501031/html/clock/newyear.html";
+        }
+        function timer(){
+            window.location.href = "file:///C:/Users/chand/OneDrive/Desktop/231501031/html/clock/index.html";
+        }
+    </script>
+</body>
+</html>

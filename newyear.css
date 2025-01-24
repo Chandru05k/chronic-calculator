@@ -1,0 +1,26 @@
+#head{
+    text-align: center;
+    padding-top: 250px;
+}
+body{
+    background-image:url("https://images.pexels.com/photos/12755084/pexels-photo-12755084.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    letter-spacing: 5px
+}
+#date{
+    font-size: 25px;
+    color: khaki;
+    letter-spacing: 2px
+}
+#countdown{
+    padding-top: 30px;
+    letter-spacing: 2px;
+    color: green;
+    font-size: 20px;
+    line-height: 30px;
+}

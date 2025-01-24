@@ -1,0 +1,35 @@
+body{
+    background-image:url("https://wallpapercat.com/w/full/b/a/9/1209998-3840x2160-desktop-4k-glow-in-the-dark-background-photo.jpg");
+    background-size: cover;
+}
+#clock{
+    display:flex;
+    text-align: center;
+    padding-top: 250px;
+    color: whitesmoke;
+    top:50px;
+}
+#time{
+    margin-top:50px;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+#greeting{
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+#back{
+    height:400px;
+    width:900px;
+    position:relative;
+    left:300px;
+    bottom: 50px;
+    background:transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    line-height: 150px;
+    border : 0.5px solid white
+    
+}
